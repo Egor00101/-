@@ -57,6 +57,23 @@ int f4(int a, int b, int c)
    return c; 
   }
 }
+int f5(int a, int b , int c)
+{
+  int sum =0;
+  if (a<=b && a<=c)
+  {
+    sum=b+c;
+  }
+if (b<=c && b<=a)
+{
+  sum=a+c;
+}
+if (c<=a && c<=b)
+{
+  sum=a+b;
+ }
+  return  sum;
+}
   int main()
 {
   int a;
@@ -66,5 +83,6 @@ int f4(int a, int b, int c)
     f2(3,5);
     f3(5,7);
    cout<<f4(1,3,5)<<"\n";
+    cout << f5(2,6,7);
   return 0; 
 }
