@@ -35,10 +35,11 @@
     {
       a = b;
     }
-     cout << a <<" " << b <<"\n";
   }
     else
+    {
       a  = b = 0;
+    }
     cout << a << " " << b <<"\n";
 }
   int main()
