@@ -16,11 +16,11 @@
 {
   if(a>b)
   {
-    cout << a;
+    cout << a <<"\n";
   }
     else
     {
-      cout << b;
+      cout << b << "\n";
     }
 }
   void f3(int a, int b)
@@ -30,23 +30,22 @@
     if(a>b)
     {
       b = a;
-      cout << a << b;
     }
     else
     {
       a = b;
-      cout << a << b;
     }
+     cout << a <<" " << b <<"\n";
   }
     else
       a  = b = 0;
-    cout << a << b;
+    cout << a << " " << b <<"\n";
 }
   int main()
 {
   int a;
   int b;
-  cout << f1(4);
+  cout << f1(4)<<"\n";
     f2(3,5);
     f3(5,7);
   return 0; 
